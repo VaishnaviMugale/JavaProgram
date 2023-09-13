@@ -1,0 +1,24 @@
+package Patters;
+
+import java.util.Scanner;
+
+public class CharPattern2 {
+
+	public static void main(String[] args) {
+
+		char i,j;
+		
+		Scanner sc = new Scanner(System.in); 
+		  System.out.println("enter any char");
+		  String charpa = sc.nextLine();
+		
+		
+		for(i='a'; i<='e'; i++) {
+			for(j='a'; j<=i; j++) {
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+	}
+
+}
